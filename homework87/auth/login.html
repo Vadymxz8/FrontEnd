@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lesson_14 Form Style</title>
+    <!--        <link rel="stylesheet" href="./css/style.css">-->
+</head>
+<body>
+<main class="main">
+    <section class="section">
+
+        <form action="http://localhost:8080/users/login" method="post" class="form" autocomplete="off">
+            <h2>Create an Account</h2>
+            <div class="name">
+
+
+                <div class="FN">
+                    <label for="firstname">First Name</label>
+                    <input
+                            type="text"
+                            id="firstname"
+                            placeholder="Enter your Name">
+                </div>
+                <div class="FN">
+                    <label for="name">Last Name</label>
+                    <input
+                            type="text"
+                            id="name"
+                            placeholder="Enter your Surname">
+                </div>
+            </div>
+            <div class="mail">
+                <label for="mail">E-mail</label>
+                <input
+                        type="email"
+                        name="email"
+                        id="mail"
+                        placeholder="Enter your E-mail"
+                        required>
+            </div>
+            <div class="password">
+                <label for="inputPassword">Password</label>
+                <input
+                        type="password"
+                        name="password"
+                        id="inputPassword"
+                        placeholder="Enter your Password"
+                        required>
+            </div>
+            <div class="age">
+                <label for="age">Age</label>
+                <input
+                        type="number"
+                        id="age"
+                        placeholder="">
+            </div>
+            <div>
+                <label for="dob">Date of Birth:</label>
+                <input type="date" id="dob" name="dob">
+            </div>
+
+            <div class="gender">
+                <label>
+                    Gender:
+                </label>
+                <label>
+                    <input type="radio" name="gender">
+                    Male
+                </label>
+                <label>
+                    <input type="radio" name="gender">
+                    Female
+                </label>
+            </div>
+
+            <label for="form-select">Country</label>
+            <select id="form-select" name="country" class="form-select">
+                <option value="" selected disabled>Your country...</option>
+                <option value="ukr">Ukraine</option>
+                <option value="swe">Sweden</option>
+                <option value="pol">Poland</option>
+                <option value="frn">France</option>
+            </select>
+
+            <label for="city">City</label>
+            <input type="text"
+                   id="city"
+                   class="form-city"
+                   placeholder="">
+            <div>
+                <label for="textarea">About me:</label>
+                <textarea id="textarea" cols="20" rows="5" placeholder="Your message..."></textarea>
+            </div>
+            <div class="btn">
+                <button type="submit" class="button">Send</button>
+                <button type="reset" class="button">Reset</button>
+            </div>
+        </form>
+    </section>
+</main>
+</body>
+</html>
