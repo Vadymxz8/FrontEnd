@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="icon" href="/assets/img/favicon.ico" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body class="bg-light">
+
+<!-- Header -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+    <div class="container">
+        <a class="navbar-brand" href="#">Vadym Tkach</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav me-auto">
+                <li class="nav-item"><a class="nav-link" href="#home">About Me</a></li>
+                <li class="nav-item"><a class="nav-link" href="#study">Education</a></li>
+                <li class="nav-item"><a class="nav-link" href="#experience">Experience</a></li>
+                <li class="nav-item"><a class="nav-link" href="#contacts">Social Media</a></li>
+                <li class="nav-item"><a class="nav-link" href="./auth/login.html">Login</a></li>
+            </ul>
+            <div class="d-flex gap-2">
+                <a href="./index_DE.html" class="text-white text-decoration-none">Ger</a>
+                <a href="./index_UA.html" class="text-white text-decoration-none">Ukr</a>
+            </div>
+        </div>
+    </div>
+</nav>
+
+<!-- Main -->
+<div class="container my-4">
+    <div class="row g-4">
+
+        <!-- Sidebar -->
+        <aside class="col-lg-3">
+            <div class="bg-primary text-white p-3 rounded">
+                <h2 class="text-center mb-3">Vadym Tkach</h2>
+                <img src="/assets/img/photo.jpg" class="img-fluid rounded mb-3" alt="My Photo">
+                <audio controls class="w-100 mb-3">
+                    <source src="/assets/audio/CodillasAcademy.mp3" type="audio/mpeg">
+                </audio>
+                <h5>Contacts</h5>
+                <p>Berlin, Germany</p>
+                <p>Email: vadim.tkach2017@gmail.com</p>
+                <p>Phone: +4915782089975</p>
+                <h5>Languages</h5>
+                <p>Ukrainian, English, German</p>
+            </div>
+        </aside>
+
+        <!-- Main content -->
+        <article class="col-lg-9">
+
+            <!-- About -->
+            <section id="home" class="bg-white p-4 rounded shadow-sm mb-4">
+                <h3 class="text-center mb-3">About Me</h3>
+                <table class="table table-bordered">
+                    <tr><th>Nationality</th><td>Ukrainian</td></tr>
+                    <tr><th>Marital Status</th><td>Single</td></tr>
+                    <tr><th>Date of Birth</th><td>06.03.1995</td></tr>
+                    <tr><th>Driving License</th><td>Class B</td></tr>
+                </table>
+            </section>
+
+            <!-- Hobbies -->
+            <section class="bg-white p-4 rounded shadow-sm mb-4">
+                <h3 class="text-center mb-3">Hobbies</h3>
+                <ul class="list-unstyled mb-0">
+                    <li class="mb-1">• Powerlifting</li>
+                    <li class="mb-1">• Traveling</li>
+                    <li class="mb-1">• Photography</li>
+                    <li>• Running</li>
+                </ul>
+            </section>
+
+            <!-- Video -->
+            <section class="bg-white p-4 rounded shadow-sm mb-4">
+                <h3 class="text-center mb-3">Video</h3>
+                <video controls class="d-block mx-auto w-100" style="max-width: 400px;">
+                    <source src="/assets/video/video.mp4" type="video/mp4">
+                </video>
+            </section>
+
+            <!-- Education -->
+            <section id="study" class="bg-white p-4 rounded shadow-sm mb-4">
+                <h3 class="text-center mb-3">Education</h3>
+                <p><strong>2012–2016</strong> College of Yuriy Fedkovych Chernivtsi National University</p>
+                <p><strong>2016–2018</strong> Yuriy Fedkovych Chernivtsi National University</p>
+            </section>
+
+            <!-- Experience -->
+            <section id="experience" class="bg-white p-4 rounded shadow-sm mb-4">
+                <h3 class="text-center mb-3">Experience</h3>
+                <p>2019–2021 Targetologist, Private Entrepreneur</p>
+                <p>2021 Worked in Czech Republic</p>
+                <p>2022–present Living in Germany, worked and currently studying</p>
+            </section>
+
+            <!-- Social media -->
+            <section id="contacts" class="bg-white p-4 rounded shadow-sm mb-4">
+                <h3 class="text-center mb-3">Social Media</h3>
+                <div class="d-flex justify-content-center gap-3 flex-wrap">
+                    <a href="https://www.facebook.com/" class="btn btn-outline-primary btn-sm">Facebook</a>
+                    <a href="https://www.instagram.com/" class="btn btn-outline-primary btn-sm">Instagram</a>
+                    <a href="https://www.linkedin.com/" class="btn btn-outline-primary btn-sm">LinkedIn</a>
+                    <a href="https://twitter.com/" class="btn btn-outline-primary btn-sm">Twitter</a>
+                </div>
+            </section>
+
+        </article>
+    </div>
+</div>
+
+<!-- Footer -->
+<footer class="bg-primary text-white text-center py-2">
+    <small>@Copyright 2025</small>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
